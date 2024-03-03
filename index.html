@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Malinka</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <img src="src/logo.svg" alt="" class="logo">
+            <button class="go_telegram" onclick="goToTelegramBot()">Telegram <img src="src/telegram.svg" alt=""></button>
+        </div>
+        <div class="texts">
+            <p class="main_text">Malinka is more than marketplace</p>
+            <p class="text1">Мы заинтересованы увеличить ваши продажи, а также создать комфортные условия для вашего бизнеса</p>
+            <p class="text2">В пару кликов оставляйте свои товары, остальное за нами!</p>
+            <div class="buttons">
+                <button class="go_telegram_business" onclick="goToTelegramBot()">Присоединяйтесь</button>
+                <button class="go_telegram_client" onclick="goToTelegramBot()">Я клиент</button>
+            </div>
+        </div>
+        <img src="src/ellipse_star.svg" alt="" class="ellipse">
+        <div class="footer">
+            <p>&copy; Malinka 2023-2024</p>
+        </div>
+    </div>
+
+    <script>
+        function goToTelegramBot(){
+            window.location = 'http://t.me/malinka_shop_bot';
+        }
+    </script>
+</body>
+</html>
