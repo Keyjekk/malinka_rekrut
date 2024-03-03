@@ -149,7 +149,6 @@ button:hover{
     font-size: 16px;
     font-weight: 400;
     display: flex;
-    gap: 24px;
 }
 
 .footer a{
@@ -293,6 +292,10 @@ button:hover{
         width: 350px;
         position: absolute;
         top: 420px;
+    }
+
+    .screens{
+        display: none;
     }
 
     .footer{
@@ -475,11 +478,19 @@ button:hover{
     }
 
     .ellipse{
-        z-index: -1;
+        z-index: -2;
         width: 100vh;
         position: absolute;
         top: 360px;
         right: 122px;
+    }
+
+    .screens{
+        z-index: -1;
+        width: 580px;
+        position: relative;
+        top: -220px;
+        right: -580px;
     }
 
     .footer{
